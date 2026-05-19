@@ -1,0 +1,30 @@
+name: flatvi
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip:
+    - matplotlib
+    - seaborn
+    - numpy
+    - scanpy
+    - scipy
+    - pre-commit
+    - scikit-learn
+    - psutil
+    - submitit
+    - pandas
+    - jupyter
+    - seml
+    - black
+    - isort
+    - cellrank
+    - openpyxl
+    - scvi-tools
+    - pot
+    - wandb
+    - stochman
+    - tensorboard
+    - torchmetrics
+    - graphtools
+    - scib_metrics

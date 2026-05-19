@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: scPhere
+Version: 0.1.0
+Summary: Deep generative model embedding single-cell RNA-Seq profiles on hyperspheres or hyperbolic spaces
+Home-page: https://github.com/klarman-cell-observatory/scPhere
+Author: Jiarui Ding and Aviv Regev
+Author-email: jding@broadinstitue.org
+License: BSD 3-clause
+Keywords: scPhere
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: numpy>=1.16.4
+Requires-Dist: tensorflow==1.14.0
+Requires-Dist: scipy>=1.3.0
+Requires-Dist: pandas>=0.21.0
+Requires-Dist: matplotlib>=3.1.0
+Requires-Dist: tensorflow_probability==0.7.0
